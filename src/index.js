@@ -2,12 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import App1 from './App1';
 import reportWebVitals from './reportWebVitals';
+import ControlledForm1 from './ControlledForm1';
+import UncontrolledComp from './UncontrolledComp';
+import Menu from './Menu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App name='Manmohan'/> */}
+    
+     <App1 />
+     <Menu />
+    <ControlledForm1 />
+    <UncontrolledComp />
   </React.StrictMode>
 );
 

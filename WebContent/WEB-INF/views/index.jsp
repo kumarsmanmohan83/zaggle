@@ -10,7 +10,7 @@
 </head>
 <body>
 <div align="center">
-	<h2>Customer Manager</h2>
+	<h2>Customer Managers</h2>
 	<form method="get" action="search">
 		<input type="text" name="keyword" /> &nbsp;
 		<input type="submit" value="Search" />
